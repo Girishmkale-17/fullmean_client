@@ -1,0 +1,19 @@
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr >
+            <th>Id</th>
+            <th>name</th>
+            <th>address</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of emp">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.address}}</td>
+
+        </tr>
+    </tbody>
+</table>
